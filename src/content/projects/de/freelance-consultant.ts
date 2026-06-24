@@ -1,10 +1,20 @@
 import type { ProjectContent } from "../../types";
+import image from "../../../assets/images/projects/consultor.png";
 
 export default {
   title: "Consultor Full Stack",
   theme: "light",
   tags: ["node", "springboot", "java", "next", "azure"],
   description:
-    "Remote Full Stack Software Consultant (2024 – Heute).<br/><br/>Entwurf und Entwicklung skalierbarer Microservice-Architekturen mit Node.js und Spring Boot, wodurch eine 100%ige Systemmodularisierung erreicht wurde.<br/>Leitung der Migration monolithischer Legacy-Systeme nach Azure, was die operativen Infrastrukturkosten um 25% senkte.<br/>Implementierung sicherer RESTful-APIs mit JWT-Authentifizierung und Optimierung der Frontend-Leistung in Next.js und React.<br/>Automatisierte Bereitstellungsprozesse mit Azure DevOps CI/CD-Pipelines.",
-  components: [],
+    "Freelance Full Stack Consultant (2020 – 2024).<br/><br/>Skalierbare Microservices-Architektur entworfen und Cloud-Migration zu Azure geleitet. Mehrere Unternehmen bei der digitalen Transformation unterstützt, komplexe Backend-Lösungen in .NET/C# und dynamische Frontends in React.js implementiert.",
+  components: [
+    {
+      type: "media",
+      props: {
+        type: "image",
+        src: image,
+        contain: true,
+      },
+    },
+  ],
 } as const satisfies ProjectContent;

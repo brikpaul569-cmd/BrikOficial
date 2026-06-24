@@ -58,7 +58,7 @@ onUnmounted(() => {
     <div class="preview-card-top" ref="wrapperRef">
       <div class="preview-card-image-wrapper">
         <div class="preview-card-image-container">
-          <img :src="props.preview.thumbnail" :alt="props.preview.title" class="preview-card-image" ref="imageRef" />
+          <img :src="props.preview.thumbnail" :alt="props.preview.title" class="preview-card-image" :style="{ objectFit: props.preview.contain ? 'contain' : 'cover' }" ref="imageRef" />
         </div>
       </div>
       <div class="preview-card-overlay">
@@ -85,7 +85,7 @@ onUnmounted(() => {
     data-cursor="arrow-external"
     data-hoversound="hover"
     external
-    :href="social[0].url"
+    :href="'https://wa.me/573123734069'"
   >
     <div class="preview-card-top preview-card-top-empty">
       <Plus class="preview-card-top-empty-icon" />
