@@ -11,7 +11,7 @@ const { project } = defineProps<{
 
 <template>
   <div class="next-project children-unclickable" data-hoversound="hover">
-    <img :src="project.thumbnail" :alt="project.title" class="next-project-image" :style="{ objectFit: project.contain ? 'contain' : 'cover' }" />
+    <img :src="project.thumbnail" :alt="project.title" class="next-project-image" :style="{ objectFit: project.contain ? 'contain' : 'cover', backgroundColor: project.theme === 'dark' ? 'var(--color-black-400)' : 'transparent' }" />
     <div class="next-project-content">
       <p class="next-project-prefix">{{ t("next-project") }}:</p>
       <h3 class="next-project-title">{{ project.title }}</h3>

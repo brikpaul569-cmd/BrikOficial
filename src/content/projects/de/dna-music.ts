@@ -6,7 +6,7 @@ export default {
   theme: "dark",
   tags: ["react", "next", "javascript"],
   description:
-    "Frontend Developer bei DNA Music (Nov 2024 – Mai 2025).<br/><br/>Entwicklung von 3 Webplattformen in React.js, Next.js und TypeScript, einschließlich einer institutionellen Website, einer akademischen Planungsplattform und einem administrativen Dashboard.<br/>Implementierung eines vollständigen Authentifizierungssystems mit OTP, Refresh-Tokens und rollenbasierter Zugriffskontrolle.<br/>Entwicklung von akademischen Echtzeit-Dashboards, Reservierungsabläufen mit QR-Generierung/-Validierung, externer Datensynchronisation (Q10) und technischem SEO.",
+    "Frontend Developer at DNA Music (Nov 2024 – May 2025).<br/><br/>Built 3 web platforms in React.js, Next.js, and TypeScript, including an institutional site, an academic scheduling platform, and an administrative dashboard.<br/>Implemented a complete authentication system with OTP, refresh tokens, and role-based access control.<br/>Built real-time academic dashboards, practice reservation flows with QR generation/validation, external data synchronization (Q10), and technical SEO.",
   components: [
     {
       type: "media",
@@ -14,6 +14,7 @@ export default {
         type: "image",
         src: image,
         contain: true,
+        theme: "dark",
       },
     },
   ],

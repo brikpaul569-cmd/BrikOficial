@@ -6,7 +6,7 @@ export default {
   theme: "dark",
   tags: ["dotnet", "csharp", "java", "postgresql", "azure"],
   description:
-    "Backend Developer im Finanzsektor (Jan 2022 – Mär 2024).<br/><br/>Entwicklung und Wartung kritischer Anwendungen für den Finanzsektor mit .NET (C#) und Java, Gewährleistung der Datenintegrität für über 10.000 Benutzer.<br/>Optimierung komplexer SQL Server- und Oracle-Abfragen (Stored Procedures), wodurch die Berichtsverarbeitungszeit um 15% reduziert wurde.<br/>Erstellung automatisierter ETL-Dienste in Azure Data Factory, wodurch die Effizienz der Datensynchronisation um 20% verbessert wurde.",
+    "Backend Developer in the Financial Sector (Jan 2022 – Mar 2024).<br/><br/>Developed and maintained critical applications for the financial sector using .NET (C#) and Java, ensuring data integrity for over 10,000 users.<br/>Optimized complex SQL Server and Oracle queries (Stored Procedures), reducing report processing time by 15%.<br/>Created automated ETL services in Azure Data Factory, improving data synchronization efficiency by 20%.",
   components: [
     {
       type: "media",

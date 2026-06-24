@@ -56,7 +56,7 @@ onUnmounted(() => {
     v-if="props.preview"
   >
     <div class="preview-card-top" ref="wrapperRef">
-      <div class="preview-card-image-wrapper">
+      <div class="preview-card-image-wrapper" :style="{ backgroundColor: props.preview.theme === 'dark' ? 'var(--color-black-400)' : 'var(--color-beige-500)' }">
         <div class="preview-card-image-container">
           <img :src="props.preview.thumbnail" :alt="props.preview.title" class="preview-card-image" :style="{ objectFit: props.preview.contain ? 'contain' : 'cover' }" ref="imageRef" />
         </div>

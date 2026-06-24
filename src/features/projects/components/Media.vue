@@ -15,6 +15,7 @@ export interface Props {
   caption?: string;
   index: number;
   contain?: boolean;
+  theme?: "light" | "dark";
 }
 
 const props = defineProps<Props>();
@@ -63,7 +64,7 @@ onMounted(async () => {
         loading="lazy"
         fetchpriority="high"
         class="project-media-image"
-        :style="{ objectFit: props.contain ? 'contain' : 'cover' }"
+        :style="{ objectFit: props.contain ? 'contain' : 'cover', backgroundColor: props.theme === 'dark' ? 'var(--color-black-400)' : 'transparent' }"
         ref="mediaRef"
       />
       <video

@@ -27,4 +27,5 @@ export interface ProjectPreview {
   thumbnail: string;
   description: string;
   contain?: boolean;
+  theme?: "light" | "dark";
 }
