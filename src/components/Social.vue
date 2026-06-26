@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Whatsapp from "./icons/Whatsapp.vue";
 import Github from "./icons/Github.vue";
 import Linkedin from "./icons/Linkedin.vue";
 import Mail from "./icons/Mail.vue";
@@ -15,6 +16,7 @@ const props = defineProps<{
 
 // map icon names to components
 const icons = {
+  whatsapp: Whatsapp,
   mail: Mail,
   github: Github,
   linkedin: Linkedin,
