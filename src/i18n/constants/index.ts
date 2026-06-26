@@ -1,9 +1,9 @@
 export const LOCALES = {
-  en: {
+  es: {
     iso: "es-ES",
     name: "Español",
   },
-  de: {
+  en: {
     iso: "en-US",
     name: "English",
   },
@@ -15,4 +15,4 @@ export const LOCALES = {
   }
 >;
 
-export const LOCALE_DEFAULT: keyof typeof LOCALES = "en";
+export const LOCALE_DEFAULT: keyof typeof LOCALES = "es";

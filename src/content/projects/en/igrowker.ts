@@ -6,7 +6,7 @@ export default {
   theme: "light",
   tags: ["java", "python", "postgresql", "angular"],
   description:
-    "Desarrollador Full Stack - Pasantía Internacional Remota (Ene 2024 – Jun 2024).<br/><br/>Participación en el desarrollo de una plataforma MVP SaaS para pequeños negocios de alimentación.<br/>Contribución al desarrollo backend con Java, Python y PostgreSQL, y desarrollo frontend con Angular.<br/>Colaboración en un equipo multidisciplinario centrado en el diseño, pruebas y validación del producto.",
+    "Full Stack Developer - Remote International Internship (Jan 2024 – Jun 2024).<br/><br/>Participated in the development of an MVP SaaS platform for small food businesses.<br/>Backend development with Java, Python, and PostgreSQL; frontend development with Angular.<br/>Collaborated in a multidisciplinary team at Igrowker S.L. (Valencia, Spain) focusing on design, testing, and product validation.",
   components: [
     {
       type: "media",

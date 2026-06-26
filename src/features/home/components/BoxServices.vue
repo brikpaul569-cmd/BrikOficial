@@ -108,22 +108,26 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 
 const SERVICES_EN = [
   { name: "React.js & Next.js" },
-  { name: "Node.js & Express" },
   { name: "Java & Spring Boot" },
   { name: ".NET & C#" },
-  { name: "SQL & Azure" },
+  { name: "Node.js & Express" },
+  { name: "Angular & TypeScript" },
+  { name: "SQL Server, Oracle & PostgreSQL" },
+  { name: "Azure & Docker" },
 ] as const satisfies { name: string }[];
 
-const SERVICES_DE = [
+const SERVICES_ES = [
   { name: "React.js & Next.js" },
-  { name: "Node.js & Express" },
   { name: "Java & Spring Boot" },
   { name: ".NET & C#" },
-  { name: "SQL & Azure" },
+  { name: "Node.js & Express" },
+  { name: "Angular & TypeScript" },
+  { name: "SQL Server, Oracle & PostgreSQL" },
+  { name: "Azure & Docker" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {
-  return locale.value === "en" ? SERVICES_EN : SERVICES_DE;
+  return locale.value === "en" ? SERVICES_EN : SERVICES_ES;
 });
 </script>
 

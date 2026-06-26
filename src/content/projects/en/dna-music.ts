@@ -4,9 +4,9 @@ import image from "../../../assets/images/projects/dna-music.avif";
 export default {
   title: "DNA Music",
   theme: "dark",
-  tags: ["react", "next", "javascript"],
+  tags: ["react", "next", "typescript", "javascript"],
   description:
-    "Desarrollador Frontend en DNA Music (Nov 2024 – May 2025).<br/><br/>Construcción de 3 plataformas web con React.js, Next.js y TypeScript, incluyendo un sitio institucional, una plataforma de horarios académicos y un dashboard administrativo.<br/>Implementación de un sistema completo de autenticación con OTP, refresh tokens y control de acceso basado en roles.<br/>Desarrollo de paneles académicos en tiempo real, flujos de reserva de prácticas con generación/validación de QR, sincronización externa de datos (Q10) y SEO técnico (JSON-LD, canonical URLs, migración a Next.js App Router).",
+    "Frontend Developer at DNA Music (Nov 2024 – May 2025).<br/><br/>Built 3 web platforms in React.js, Next.js, and TypeScript, including an institutional site, an academic scheduling platform, and an administrative dashboard.<br/>Implemented a complete authentication system with OTP, refresh tokens, and role-based access control.<br/>Built real-time academic dashboards, practice reservation flows with QR generation/validation, external data synchronization (Q10), and technical SEO.",
   components: [
     {
       type: "media",

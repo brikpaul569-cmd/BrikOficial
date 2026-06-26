@@ -4,9 +4,9 @@ import image from "../../../assets/images/projects/datatools-team.png";
 export default {
   title: "Datatools S.A",
   theme: "dark",
-  tags: ["dotnet", "csharp", "java", "postgresql", "azure"],
+  tags: ["dotnet", "csharp", "java", "sqlserver", "oracle", "postgresql", "azure"],
   description:
-    "Desarrollador Backend en el Sector Financiero (Ene 2022 – Mar 2024).<br/><br/>Desarrollo y mantenimiento de aplicaciones críticas para el sector financiero usando .NET (C#) y Java, asegurando la integridad de datos para más de 10,000 usuarios.<br/>Optimización de consultas complejas en SQL Server y Oracle (Stored Procedures), reduciendo el tiempo de procesamiento de reportes en un 15%.<br/>Creación de servicios ETL automatizados en Azure Data Factory, mejorando la eficiencia de sincronización de datos en un 20%.<br/>Desarrollo de APIs REST para la interconexión de sistemas internos y externos soportando más de 5,000 peticiones diarias, y participación en la migración de módulos PHP a .NET Core.",
+    "Backend Developer in the Financial Sector (Jan 2022 – Mar 2024).<br/><br/>Developed and maintained critical applications for the financial sector using .NET (C#) and Java, ensuring data integrity for over 10,000 users.<br/>Optimized complex SQL Server and Oracle queries (Stored Procedures), reducing report processing time by 15%.<br/>Created automated ETL services in Azure Data Factory, improving data synchronization efficiency by 20%.<br/>Developed REST APIs for interconnecting internal and external systems supporting over 5,000 daily requests.<br/>Participated in migrating PHP modules to .NET Core and reduced legacy technical debt by 30% through progressive refactoring.",
   components: [
     {
       type: "media",

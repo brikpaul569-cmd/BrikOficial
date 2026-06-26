@@ -6,7 +6,7 @@ export default {
   theme: "light",
   tags: ["java", "python", "postgresql", "angular"],
   description:
-    "Full Stack Developer - Remote International Internship (Jan 2024 – Jun 2024).<br/><br/>Participated in the development of an MVP SaaS platform for small food businesses.<br/>Contributed to backend development with Java, Python, and PostgreSQL, and frontend development with Angular.<br/>Collaborated in a multidisciplinary team focusing on design, testing, and product validation.",
+    "Desarrollador Full Stack - Pasantía Internacional Remota (Ene 2024 – Jun 2024).<br/><br/>Participación en el desarrollo de una plataforma MVP SaaS para pequeños negocios de alimentación.<br/>Contribución al desarrollo backend con Java, Python y PostgreSQL, y desarrollo frontend con Angular.<br/>Colaboración en un equipo multidisciplinario centrado en el diseño, pruebas y validación del producto.",
   components: [
     {
       type: "media",

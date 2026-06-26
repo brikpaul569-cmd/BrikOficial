@@ -7,10 +7,15 @@ export type TagVariant =
   | "html"
   | "css"
   | "javascript"
+  | "typescript"
   | "node"
   | "next"
   | "kubernetes"
   | "postgresql"
+  | "mysql"
+  | "mongodb"
+  | "sqlserver"
+  | "oracle"
   | "ogl"
   | "glsl"
   | "java"
@@ -18,9 +23,14 @@ export type TagVariant =
   | "csharp"
   | "dotnet"
   | "python"
+  | "php"
   | "angular"
   | "docker"
-  | "azure";
+  | "azure"
+  | "tailwind"
+  | "bootstrap"
+  | "powershell"
+  | "bash";
 
 export const tagLabels = {
   three: "Three.js",
@@ -31,10 +41,15 @@ export const tagLabels = {
   html: "HTML",
   css: "CSS",
   javascript: "JavaScript",
+  typescript: "TypeScript",
   node: "Node.js",
   next: "Next.js",
   kubernetes: "Kubernetes",
   postgresql: "PostgreSQL",
+  mysql: "MySQL",
+  mongodb: "MongoDB",
+  sqlserver: "SQL Server",
+  oracle: "Oracle",
   ogl: "OGL.js",
   glsl: "GLSL",
   java: "Java",
@@ -42,7 +57,12 @@ export const tagLabels = {
   csharp: "C#",
   dotnet: ".NET",
   python: "Python",
+  php: "PHP",
   angular: "Angular",
   docker: "Docker",
   azure: "Azure",
+  tailwind: "Tailwind CSS",
+  bootstrap: "Bootstrap",
+  powershell: "PowerShell",
+  bash: "Bash",
 } as const satisfies Record<TagVariant, string>;

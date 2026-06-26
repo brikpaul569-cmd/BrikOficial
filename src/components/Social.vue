@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Github from "./icons/Github.vue";
 import Linkedin from "./icons/Linkedin.vue";
-import Instagram from "./icons/Instagram.vue";
 import Mail from "./icons/Mail.vue";
 import Youtube from "./icons/Youtube.vue";
 import Link from "./Link.vue";
