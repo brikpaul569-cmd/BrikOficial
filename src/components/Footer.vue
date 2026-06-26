@@ -45,7 +45,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
           <div class="footer-top-links-legal">
             <Clickable renderAs="div">
               <Link
-                :href="locale === 'en' ? '/en/privacy' : '/privacy'"
+                href="/privacy"
                 class="footer-link"
                 :external="true"
                 data-cursor="circle-white"
@@ -56,7 +56,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
             </Clickable>
             <Clickable renderAs="div">
               <Link
-                :href="locale === 'en' ? '/en/legal' : '/legal'"
+                href="/legal"
                 class="footer-link children-unclickable"
                 :external="true"
                 data-cursor="circle-white"
